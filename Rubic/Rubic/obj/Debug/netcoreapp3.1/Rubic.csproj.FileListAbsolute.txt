@@ -63,8 +63,6 @@ C:\Users\StudentDev\Documents\GitHub\Rubicc\Rubic\Rubic\bin\Debug\netcoreapp3.1\
 C:\Users\StudentDev\Documents\GitHub\Rubicc\Rubic\Rubic\obj\Debug\netcoreapp3.1\Rubic.csprojAssemblyReference.cache
 C:\Users\StudentDev\Documents\GitHub\Rubicc\Rubic\Rubic\obj\Debug\netcoreapp3.1\Rubic.AssemblyInfoInputs.cache
 C:\Users\StudentDev\Documents\GitHub\Rubicc\Rubic\Rubic\obj\Debug\netcoreapp3.1\Rubic.AssemblyInfo.cs
-C:\Users\StudentDev\Documents\GitHub\Rubicc\Rubic\Rubic\obj\Debug\netcoreapp3.1\Rubic.csproj.CoreCompileInputs.cache
-C:\Users\StudentDev\Documents\GitHub\Rubicc\Rubic\Rubic\obj\Debug\netcoreapp3.1\Rubic.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\StudentDev\Documents\GitHub\Rubicc\Rubic\Rubic\obj\Debug\netcoreapp3.1\Rubic.RazorTargetAssemblyInfo.cache
 C:\Users\StudentDev\Documents\GitHub\Rubicc\Rubic\Rubic\obj\Debug\netcoreapp3.1\Rubic.csproj.CopyComplete
 C:\Users\StudentDev\Documents\GitHub\Rubicc\Rubic\Rubic\obj\Debug\netcoreapp3.1\staticwebassets\Rubic.StaticWebAssets.Manifest.cache
@@ -72,3 +70,8 @@ C:\Users\StudentDev\Documents\GitHub\Rubicc\Rubic\Rubic\obj\Debug\netcoreapp3.1\
 C:\Users\StudentDev\Documents\GitHub\Rubicc\Rubic\Rubic\obj\Debug\netcoreapp3.1\Rubic.dll
 C:\Users\StudentDev\Documents\GitHub\Rubicc\Rubic\Rubic\obj\Debug\netcoreapp3.1\Rubic.pdb
 C:\Users\StudentDev\Documents\GitHub\Rubicc\Rubic\Rubic\obj\Debug\netcoreapp3.1\Rubic.genruntimeconfig.cache
+C:\Users\StudentDev\Documents\GitHub\Rubicc\Rubic\Rubic\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\StudentDev\Documents\GitHub\Rubicc\Rubic\Rubic\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\StudentDev\Documents\GitHub\Rubicc\Rubic\Rubic\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\StudentDev\Documents\GitHub\Rubicc\Rubic\Rubic\obj\Debug\netcoreapp3.1\Rubic.csproj.CoreCompileInputs.cache
+C:\Users\StudentDev\Documents\GitHub\Rubicc\Rubic\Rubic\obj\Debug\netcoreapp3.1\Rubic.MvcApplicationPartsAssemblyInfo.cache

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -16,9 +17,11 @@ namespace Rubic.Controllers
     public class UserController : ControllerBase
     {
         public MoneyBotContext _context;
-        public UserController(MoneyBotContext context)
+        public IMapper _mapper;
+        public UserController(MoneyBotContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
         [HttpPost("register")]
         public async Task<ActionResult> Register(UserIdentity userIdentity)
@@ -38,7 +41,7 @@ namespace Rubic.Controllers
         [HttpPost("SingIn")]
         public async Task<ActionResult> SingIn(UserIdentity userIdentity)
         {
-            User user = await _context.Users.FirstOrDefaultAsync(g => g.PhoneNumberPrefix == userIdentity.PhoneNumberPrefix 
+            User user = await _context.Users.FirstOrDefaultAsync(g => g.PhoneNumberPrefix == userIdentity.PhoneNumberPrefix
             && g.PhoneNumber == userIdentity.PhoneNumber
             && g.Password == userIdentity.Password
             );
@@ -60,5 +63,17 @@ namespace Rubic.Controllers
                 return NotFound();
             }
             return Ok();
+
         }
+        [HttpGet("{userId}")]
+        public async Task<ActionResult<UserInformationDto>> Get(int userId)
+        {
+            User user = await _context.Users.FirstOrDefaultAsync(u => u.Id == userId);
+            if (user == null) return NotFound();
+
+            UserInformationDto userInformationDto = 
+                _mapper.Map<UserInformationDto>(user);
+            return userInformationDto;
+        }
+    }
 }
