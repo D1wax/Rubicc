@@ -14,5 +14,7 @@ namespace Rubic.DbContext
 
         public DbSet<User> Users { get; set; }
         public DbSet<Money> Moneys { get; set; }
+
+
     }
 }

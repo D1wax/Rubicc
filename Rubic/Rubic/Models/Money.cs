@@ -11,6 +11,7 @@ namespace Rubic.Models
         public int Summ { get; set; }
         public string Operation { get; set; }
         public DateTime? Date { get; set; }
+        public int UserId { get; set; }
         public User User { get; set; }
     }
 }
